@@ -6,7 +6,6 @@ using System.Collections.Generic;
 [HarmonyPatch]
 public class ComputerIntrinsicsPatch
 {
-
     [HarmonyPatch(typeof(ComputerIntrinsics), "AddInstrinsics")]
     class AddInstrinsicsPatch
     {
