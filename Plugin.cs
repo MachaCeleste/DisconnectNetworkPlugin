@@ -4,7 +4,7 @@ using HarmonyLib;
 
 namespace DisconnectNetworkPlugin;
 
-[BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+[BepInPlugin("com.machaceleste.disconnectnetworkplugin", MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 public class Plugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
